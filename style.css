@@ -1,4 +1,8 @@
-.style1 {
+body {
+  background-color: lightblue;
+}
+
+style1 {
   witdh: 400px;
   clip-path: ci;
 }
