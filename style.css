@@ -1,0 +1,140 @@
+body{
+	background-color: white;
+    font-family: Open Sans;
+	line-height: 1.5;
+	margin: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+section{
+  padding-top: 75px;
+  margin-left: 50px;
+  width: 800px;
+  min-height: 100%;
+  }
+
+h1{
+	color: #d3441c;
+    font-size: 18px;
+	}
+
+h2{
+	color: black;
+	font-size: 16px;
+	padding-top: 25px;
+	padding-bottom: 8px;
+	}
+
+p{
+  font-family: Open Sans;
+  font-size: 14px;
+  width: 300px;
+}
+
+a:link{
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
+}
+
+th {
+  text-align: left;
+  line-height: 3;
+  font-weight: normal;
+}
+
+.header {
+  background: url("Header/2016expo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+nav .menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 7.5%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  z-index: 1;
+}
+
+nav .menu.scrolled{
+  background-color: white;
+  transition: background-color 200ms linear;
+}
+
+nav .menu ul{
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .menu ul li a {
+  color: white;
+  font-size: 14px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav .menu.scrolled ul li a{
+  color: black;
+  transition: background-color 200ms linear;
+}
+
+nav .menu ul li.active a {
+  color: #d3441c;
+}
+
+nav .menu ul li a:hover {
+  color: #d3441c;
+}
+
+.title {
+	padding-top: 480px;
+	font-size:26px;
+	color: white;
+	text-align: center;
+}
+
+.subtitle {
+	font-size:16px;
+	color: white;
+	text-align: center;
+}
+
+#logo{
+	width: 25;
+	padding-right: 10
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.gallery img {
+  width: 225;
+  height: auto;
+}
+
+.gallery img:hover {
+  border: 1px solid #777;
+}
+
