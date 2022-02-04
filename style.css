@@ -30,8 +30,9 @@ h2{
 
 p{
   font-family: Open Sans;
-  font-size: 1em;
-  color: green;
+  font-size: 14px;
+  font-size-adjust: auto;
+  color: red;
   width: 300px;
 }
 
