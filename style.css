@@ -1,7 +1,6 @@
 body{
 	background-color: white;
     font-family: Open Sans;
-	text-size-adjust: none;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -31,7 +30,7 @@ h2{
 
 p{
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 0.875em;
   width: 300px;
 }
 
