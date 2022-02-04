@@ -31,7 +31,12 @@ h2{
 p{
   font-family: Open Sans;
   font-size: 14px;
+  color: red;
   width: 300px;
+}
+
+@media (orientation: portrait){
+  p{font-size: 20px;}
 }
 
 a:link{
