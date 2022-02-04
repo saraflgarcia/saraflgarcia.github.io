@@ -1,6 +1,7 @@
 body{
 	background-color: white;
     font-family: Open Sans;
+	text-size-adjust: none;
 	line-height: 1.5;
 	margin: 0;
 }
