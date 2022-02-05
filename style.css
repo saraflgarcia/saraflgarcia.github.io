@@ -65,6 +65,7 @@ th {
 nav .menu {
   position: fixed;
   margin: 0; /* This makes fixed work in mobile */
+  -webkit-backface-visibility: hidden;
   top: 0;
   height: 7.5vh;
   width: 100vw;
