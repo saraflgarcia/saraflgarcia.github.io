@@ -111,7 +111,7 @@ nav .menu ul li a:hover {
 .title {
 	position: absolute;
 	width: 100%;
-	bottom: 15vh;
+	bottom: 12vh;
 	font-size:26px;
 	color: white;
 	text-align: center;
@@ -120,7 +120,7 @@ nav .menu ul li a:hover {
 .subtitle {
 	position: absolute;
 	width: 100%;
-	bottom: 12vh;
+	bottom: 8vh;
 	font-size:16px;
 	color: white;
 	text-align: center;
