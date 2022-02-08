@@ -109,16 +109,18 @@ nav .menu ul li a:hover {
 }
 
 .title {
-	position: relative;
-	top: 80vh;
+	position: absolute;
+	width: 100%;
+	bottom: 15vh;
 	font-size:26px;
 	color: white;
 	text-align: center;
 }
 
 .subtitle {
-	position: relative;
-	top: 80vh;
+	position: absolute;
+	width: 100%;
+	bottom: 12vh;
 	font-size:16px;
 	color: white;
 	text-align: center;
