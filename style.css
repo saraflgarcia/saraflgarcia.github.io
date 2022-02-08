@@ -96,6 +96,10 @@ nav .menu.scrolled ul li a{
   transition: background-color 200ms linear;
 }
 
+nav .menu ul li.current a {
+  color: #d3441c;
+}
+
 nav .menu ul li a:hover {
   color: #d3441c;
 }
