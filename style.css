@@ -31,11 +31,7 @@ h2{
 p{
   font-family: Open Sans;
   font-size: 14px;
-  width: 300px;
-}
-
-@media only screen and (max-width: 350px) {
-  p{width: 100%;}
+  max-width: 300px;
 }
 
 a:link{
@@ -86,7 +82,7 @@ nav .menu ul{
   gap: 20px;
   display: flex;
   float: right;
-  padding-right: 20px;
+  padding-right: 2.5vw;
 }
 
 nav .menu ul li a {
@@ -109,7 +105,7 @@ nav .menu ul li a:hover {
 }
 
 .title {
-	padding-top: 480px;
+	padding-top: 80vh;
 	font-size:26px;
 	color: white;
 	text-align: center;
