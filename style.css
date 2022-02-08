@@ -34,6 +34,10 @@ p{
   width: 300px;
 }
 
+@media only screen and (max-width: 350px) {
+  p{width: 100%;}
+}
+
 a:link{
   color: black;
 }
@@ -65,7 +69,6 @@ th {
 nav .menu {
   position: fixed;
   margin: 0; /* This makes fixed work in mobile */
-  -webkit-backface-visibility: hidden;
   top: 0;
   height: 7.5vh;
   width: 100vw;
