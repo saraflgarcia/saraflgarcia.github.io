@@ -18,19 +18,19 @@ section{
 
 h1{
 	color: #d3441c;
-    font-size: 18px;
+    font-size: 20px;
 	}
 
 h2{
 	color: black;
-	font-size: 16px;
+	font-size: 18px;
 	padding-top: 25px;
 	padding-bottom: 8px;
 	}
 
 p{
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 16px;
   max-width: 300px;
 }
 
@@ -87,7 +87,7 @@ nav .menu ul{
 
 nav .menu ul li a {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 }
 
